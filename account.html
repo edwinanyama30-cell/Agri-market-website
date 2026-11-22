@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Account | AgriMarket</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header class="site">
+        <div class="wrap">
+
+            <a class="brand" href="index.html">AgriMarket</a>
+
+            <nav aria-label="Main">
+                <a href="index.html">Home</a>
+                <a href="marketplace.html">Marketplace</a>
+                <a href="sell.html">Sell Crops</a>
+                <a href="prices.html">Market Prices</a>
+                <a href="account.html" aria-current="page">Account</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- Main Account Section -->
+    <main class="acct">
+        <section>
+            <div class="wrap">
+
+                <div class="auth">
+
+                    <!-- Welcome Sidebar -->
+                    <div class="side">
+                        <h2>Welcome to AgriMarket</h2>
+
+                        <p>
+                            Log in to manage listings, or create an
+                            account to start buying and selling.
+                        </p>
+                    </div>
+
+                    <!-- Account Panel -->
+                    <div class="panel">
+
+                        <!-- Login and Register Tabs -->
+                        <div class="tabs">
+                            <a href="#login" class="active">Login</a>
+                            <a href="#register">Register</a>
+                        </div>
+
+                        <!-- Login Form -->
+                        <div id="login" class="form-content">
+                            <h2>Login to Your Account</h2>
+
+                            <form action="#" method="post">
+
+                                <label for="login-email">
+                                    Email Address
+                                </label>
+
+                                <input
+                                    type="email"
+                                    id="login-email"
+                                    name="email"
+                                    placeholder="Enter your email"
+                                    required
+                                >
+
+                                <label for="login-password">
+                                    Password
+                                </label>
+
+                                <input
+                                    type="password"
+                                    id="login-password"
+                                    name="password"
+                                    placeholder="Enter your password"
+                                    required
+                                >
+
+                                <button type="submit">
+                                    Login
+                                </button>
+
+                            </form>
+                        </div>
+
+                        <!-- Registration Form -->
+                        <div id="register" class="form-content">
+                            <h2>Create an Account</h2>
+
+                            <form action="#" method="post">
+
+                                <label for="register-name">
+                                    Full Name
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="register-name"
+                                    name="name"
+                                    placeholder="Enter your full name"
+                                    required
+                                >
+
+                                <label for="register-email">
+                                    Email Address
+                                </label>
+
+                                <input
+                                    type="email"
+                                    id="register-email"
+                                    name="email"
+                                    placeholder="Enter your email"
+                                    required
+                                >
+
+                                <label for="register-password">
+                                    Password
+                                </label>
+
+                                <input
+                                    type="password"
+                                    id="register-password"
+                                    name="password"
+                                    placeholder="Create a password"
+                                    required
+                                >
+
+                                <button type="submit">
+                                    Create Account
+                                </button>
+
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>

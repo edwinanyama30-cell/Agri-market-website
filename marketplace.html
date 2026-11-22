@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marketplace | AgriMarket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+    <div class="wrap">
+        <a class="brand" href="index.html">AgriMarket</a>
+
+        <nav aria-label="Main">
+            <a href="index.html">Home</a>
+            <a href="marketplace.html" aria-current="page">Marketplace</a>
+            <a href="sell.html">Sell Crops</a>
+            <a href="prices.html">Market Prices</a>
+            <a href="account.html">Account</a>
+        </nav>
+    </div>
+</header>
+
+<main class="market">
+
+    <div class="page-title">
+        <div class="wrap">
+            <h1>Browse crops</h1>
+            <p>Filter produce from farmers across the country by category.</p>
+        </div>
+    </div>
+
+    <section id="list">
+        <div class="wrap">
+
+            <div class="chips" role="radiogroup" aria-label="Filter by category">
+                <input type="radio" name="c" id="c-all" checked>
+                <label for="c-all">All</label>
+
+                <input type="radio" name="c" id="c-cash-crops">
+                <label for="c-cash-crops">Cash Crops</label>
+
+                <input type="radio" name="c" id="c-cereals">
+                <label for="c-cereals">Cereals</label>
+
+                <input type="radio" name="c" id="c-fruit">
+                <label for="c-fruit">Fruit</label>
+
+                <input type="radio" name="c" id="c-legumes">
+                <label for="c-legumes">Legumes</label>
+
+                <input type="radio" name="c" id="c-oils">
+                <label for="c-oils">Oils</label>
+
+                <input type="radio" name="c" id="c-roots-and-tubers">
+                <label for="c-roots-and-tubers">Roots and Tubers</label>
+
+                <input type="radio" name="c" id="c-vegetables">
+                <label for="c-vegetables">Vegetables</label>
+            </div>
+
+            <div class="grid">
+
+                <article class="card" data-c="cereals">
+                    <div class="ph" role="img" aria-label="Long-grain Rice"
+                         style="background-image:url(images/rice.jpg),linear-gradient(135deg,#cfe4d6,#9fc4ab)">
+                        <span>Long-grain Rice</span>
+                    </div>
+                    <div class="b">
+                        <h3>Long-grain Rice</h3>
+                        <div class="price">Le 650 <small>per 50 kg bag</small></div>
+                        <div class="meta">Bo &middot; 120 bags available</div>
+                        <a class="btn o" href="marketplace.html#crop-1">View details</a>
+                    </div>
+                </article>
+
+                <article class="card" data-c="roots-and-tubers">
+                    <div class="ph" role="img" aria-label="Cassava Roots"
+                         style="background-image:url(images/cassava.jpg),linear-gradient(135deg,#cfe4d6,#9fc4ab)">
+                        <span>Cassava Roots</span>
+                    </div>
+                    <div class="b">
+                        <h3>Cassava Roots</h3>
+                        <div class="price">Le 120 <small>per 25 kg sack</small></div>
+                        <div class="meta">Kenema &middot; 300 sacks available</div>
+                        <a class="btn o" href="marketplace.html#crop-2">View details</a>
+                    </div>
+                </article>
+
+                <article class="card" data-c="oils">
+                    <div class="ph" role="img" aria-label="Red Palm Oil"
+                         style="background-image:url(images/palm-oil.jpg),linear-gradient(135deg,#cfe4d6,#9fc4ab)">
+                        <span>Red Palm Oil</span>
+                    </div>
+                    <div class="b">
+                        <h3>Red Palm Oil</h3>
+                        <div class="price">Le 380 <small>per 20 litre container</small></div>
+                        <div class="meta">Kailahun &middot; 80 containers available</div>
+                        <a class="btn o" href="marketplace.html#crop-3">View details</a>
+                    </div>
+                </article>
+
+                <article class="card" data-c="legumes">
+                    <div class="ph" role="img" aria-label="Groundnuts"
+                         style="background-image:url(images/groundnuts.jpg),linear-gradient(135deg,#cfe4d6,#9fc4ab)">
+                        <span>Groundnuts</span>
+                    </div>
+                    <div class="b">
+                        <h3>Groundnuts</h3>
+                        <div class="price">Le 540 <small>per 50 kg bag</small></div>
+                        <div class="meta">Makeni &middot; 60 bags available</div>
+                        <a class="btn o" href="marketplace.html#crop-4">View details</a>
+                    </div>
+                </article>
+
+                <article class="card" data-c="vegetables">
+                    <div class="ph" role="img" aria-label="Hot Pepper"
+                         style="background-image:url(images/pepper.jpg),linear-gradient(135deg,#cfe4d6,#9fc4ab)">
+                        <span>Hot Pepper</span>
+                    </div>
+                    <div class="b">
+                        <h3>Hot Pepper</h3>
+                        <div class="price">Le 45 <small>per kilogram</small></div>
+                        <div class="meta">Port Loko &middot; 500 kg available</div>
+                        <a class="btn o" href="marketplace.html#crop-5">View details</a>
+                    </div>
+                </article>
+
+                <article class="card" data-c="cash-crops">
+                    <div class="ph" role="img" aria-label="Cocoa Beans"
+                         style="background-image:url(images/cocoa.jpg),linear-gradient(135deg,#cfe4d6,#9fc4ab)">
+                        <span>Cocoa Beans</span>
+                    </div>
+                    <div class="b">
+                        <h3>Cocoa Beans</h3>
+                        <div class="price">Le 62 <small>per kilogram</small></div>
+                        <div class="meta">Kenema &middot; 2 tonnes available</div>
+                        <a class="btn o" href="marketplace.html#crop-6">View details</a>
+                    </div>
+                </article>
+
+                <article class="card" data-c="fruit">
+                    <div class="ph" role="img" aria-label="Plantain"
+                         style="background-image:url(images/plantain.jpg),linear-gradient(135deg,#cfe4d6,#9fc4ab)">
+                        <span>Plantain</span>
+                    </div>
+                    <div class="b">
+                        <h3>Plantain</h3>
+                        <div class="price">Le 35 <small>per bunch</small></div>
+                        <div class="meta">Bo &middot; 400 bunches available</div>
+                        <a class="btn o" href="marketplace.html#crop-7">View details</a>
+                    </div>
+                </article>
+
+                <article class="card" data-c="roots-and-tubers">
+                    <div class="ph" role="img" aria-label="Sweet Potato"
+                         style="background-image:url(images/sweet-potato.jpg),linear-gradient(135deg,#cfe4d6,#9fc4ab)">
+                        <span>Sweet Potato</span>
+                    </div>
+                    <div class="b">
+                        <h3>Sweet Potato</h3>
+                        <div class="price">Le 150 <small>per 25 kg sack</small></div>
+                        <div class="meta">Makeni &middot; 150 sacks available</div>
+                        <a class="btn o" href="marketplace.html#crop-8">View details</a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="modal" id="crop-1">
+        <a class="x" href="#list" aria-label="Close"></a>
+        <div class="box">
+            <div class="ph" role="img" aria-label="Long-grain Rice"
+                 style="background-image:url(images/rice.jpg),linear-gradient(135deg,#cfe4d6,#9fc4ab)">
+                <span>Long-grain Rice</span>
+            </div>
+            <div class="b">
+                <h2>Long-grain Rice</h2>
+                <div class="price">Le 650 <small>per 50 kg bag</small></div>
+                <p>Clean, dry, long-grain paddy rice milled this season. Bags are weighed at pickup.</p>
+                <p class="meta">
+                    <strong>Quantity:</strong> 120 bags<br>
+                    <strong>Location:</strong> Bo<br>
+                    <strong>Category:</strong> Cereals<br>
+                    <strong>Seller:</strong> Sample Farm Cooperative
+                </p>
+                <p class="note">Contact details are shared only after a buyer sends an enquiry.</p>
+                <a class="btn" href="account.html#login">Log in to send an enquiry</a>
+                <a class="btn o" href="#list">Close</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="crop-2">
+        <a class="x" href="#list" aria-label="Close"></a>
+        <div class="box">
+            <div class="ph" role="img" aria-label="Cassava Roots"
+                 style="background-image:url(images/cassava.jpg),linear-gradient(135deg,#cfe4d6,#9fc4ab)">
+                <span>Cassava Roots</span>
+            </div>
+            <div class="b">
+                <h2>Cassava Roots</h2>
+                <div class="price">Le 120 <small>per 25 kg sack</small></div>
+                <p>Freshly harvested cassava roots, suitable for gari processing or direct sale.</p>
+                <p class="meta">
+                    <strong>Quantity:</strong> 300 sacks<br>
+                    <strong>Location:</strong> Kenema<br>
+                    <strong>Category:</strong> Roots and Tubers<br>
+                    <strong>Seller:</strong> Sample Growers Group
+                </p>
+                <p class="note">Contact details are shared only after a buyer sends an enquiry.</p>
+                <a class="btn" href="account.html#login">Log in to send an enquiry</a>
+                <a class="btn o" href="#list">Close</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="crop-3">
+        <a class="x" href="#list" aria-label="Close"></a>
+        <div class="box">
+            <div class="ph" role="img" aria-label="Red Palm Oil"
+                 style="background-image:url(images/palm-oil.jpg),linear-gradient(135deg,#cfe4d6,#9fc4ab)">
+                <span>Red Palm Oil</span>
+            </div>
+            <div class="b">
+                <h2>Red Palm Oil</h2>
+                <div class="price">Le 380 <small>per 20 litre container</small></div>
+                <p>Traditionally processed red palm oil, filtered and stored in sealed containers.</p>
+                <p class="meta">
+                    <strong>Quantity:</strong> 80 containers<br>
+                    <strong>Location:</strong> Kailahun<br>
+                    <strong>Category:</strong> Oils<br>
+                    <strong>Seller:</strong> Sample Oil Producers
+                </p>
+                <p class="note">Contact details are shared only after a buyer sends an enquiry.</p>
+                <a class="btn" href="account.html#login">Log in to send an enquiry</a>
+                <a class="btn o" href="#list">Close</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="crop-4">
+        <a class="x" href="#list" aria-label="Close"></a>
+        <div class="box">
+            <div class="ph" role="img" aria-label="Groundnuts"
+                 style="background-image:url(images/groundnuts.jpg),linear-gradient(135deg,#cfe4d6,#9fc4ab)">
+                <span>Groundnuts</span>
+            </div>
+            <div class="b">
+                <h2>Groundnuts</h2>
+                <div class="price">Le 540 <small>per 50 kg bag</small></div>
+                <p>Shelled, sorted groundnuts dried to a safe moisture level for storage.</p>
+                <p class="meta">
+                    <strong>Quantity:</strong> 60 bags<br>
+                    <strong>Location:</strong> Makeni<br>
+                    <strong>Category:</strong> Legumes<br>
+                    <strong>Seller:</strong> Sample Farm Cooperative
+                </p>
+                <p class="note">Contact details are shared only after a buyer sends an enquiry.</p>
+                <a class="btn" href="account.html#login">Log in to send an enquiry</a>
+                <a class="btn o" href="#list">Close</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="crop-5">
+        <a class="x" href="#list" aria-label="Close"></a>
+        <div class="box">
+            <div class="ph" role="img" aria-label="Hot Pepper"
+                 style="background-image:url(images/pepper.jpg),linear-gradient(135deg,#cfe4d6,#9fc4ab)">
+                <span>Hot Pepper</span>
+            </div>
+            <div class="b">
+                <h2>Hot Pepper</h2>
+                <div class="price">Le 45 <small>per kilogram</small></div>
+                <p>Fresh hot pepper picked within 48 hours. Available weekly during the season.</p>
+                <p class="meta">
+                    <strong>Quantity:</strong> 500 kg<br>
+                    <strong>Location:</strong> Port Loko<br>
+                    <strong>Category:</strong> Vegetables<br>
+                    <strong>Seller:</strong> Sample Market Gardens
+                </p>
+                <p class="note">Contact details are shared only after a buyer sends an enquiry.</p>
+                <a class="btn" href="account.html#login">Log in to send an enquiry</a>
+                <a class="btn o" href="#list">Close</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="crop-6">
+        <a class="x" href="#list" aria-label="Close"></a>
+        <div class="box">
+            <div class="ph" role="img" aria-label="Cocoa Beans"
+                 style="background-image:url(images/cocoa.jpg),linear-gradient(135deg,#cfe4d6,#9fc4ab)">
+                <span>Cocoa Beans</span>
+            </div>
+            <div class="b">
+                <h2>Cocoa Beans</h2>
+                <div class="price">Le 62 <small>per kilogram</small></div>
+                <p>Fermented and sun-dried cocoa beans. Bulk buyers welcome.</p>
+                <p class="meta">
+                    <strong>Quantity:</strong> 2 tonnes<br>
+                    <strong>Location:</strong> Kenema<br>
+                    <strong>Category:</strong> Cash Crops<br>
+                    <strong>Seller:</strong> Sample Cocoa Growers
+                </p>
+                <p class="note">Contact details are shared only after a buyer sends an enquiry.</p>
+                <a class="btn" href="account.html#login">Log in to send an enquiry</a>
+                <a class="btn o" href="#list">Close</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="crop-7">
+        <a class="x" href="#list" aria-label="Close"></a>
+        <div class="box">
+            <div class="ph" role="img" aria-label="Plantain"
+                 style="background-image:url(images/plantain.jpg),linear-gradient(135deg,#cfe4d6,#9fc4ab)">
+                <span>Plantain</span>
+            </div>
+            <div class="b">
+                <h2>Plantain</h2>
+                <div class="price">Le 35 <small>per bunch</small></div>
+                <p>Mature green plantain, harvested to order and bunched for transport.</p>
+                <p class="meta">
+                    <strong>Quantity:</strong> 400 bunches<br>
+                    <strong>Location:</strong> Bo<br>
+                    <strong>Category:</strong> Fruit<br>
+                    <strong>Seller:</strong> Sample Growers Group
+                </p>
+                <p class="note">Contact details are shared only after a buyer sends an enquiry.</p>
+                <a class="btn" href="account.html#login">Log in to send an enquiry</a>
+                <a class="btn o" href="#list">Close</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="crop-8">
+        <a class="x" href="#list" aria-label="Close"></a>
+        <div class="box">
+            <div class="ph" role="img" aria-label="Sweet Potato"
+                 style="background-image:url(images/sweet-potato.jpg),linear-gradient(135deg,#cfe4d6,#9fc4ab)">
+                <span>Sweet Potato</span>
+            </div>
+            <div class="b">
+                <h2>Sweet Potato</h2>
+                <div class="price">Le 150 <small>per 25 kg sack</small></div>
+                <p>Orange-fleshed sweet potato, graded by size.</p>
+                <p class="meta">
+                    <strong>Quantity:</strong> 150 sacks<br>
+                    <strong>Location:</strong> Makeni<br>
+                    <strong>Category:</strong> Roots and Tubers<br>
+                    <strong>Seller:</strong> Sample Market Gardens
+                </p>
+                <p class="note">Contact details are shared only after a buyer sends an enquiry.</p>
+                <a class="btn" href="account.html#login">Log in to send an enquiry</a>
+                <a class="btn o" href="#list">Close</a>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<footer class="site">
+    <div class="wrap">
+        <div class="cols">
+
+            <div>
+                <h3>AgriMarket</h3>
+                <p>A digital marketplace connecting farmers and buyers across Sierra Leone.</p>
+            </div>
+
+            <div>
+                <h3>Explore</h3>
+                <a href="index.html">Home</a>
+                <a href="marketplace.html">Marketplace</a>
+                <a href="sell.html">Sell Crops</a>
+                <a href="prices.html">Market Prices</a>
+            </div>
+
+            <div>
+                <h3>Account</h3>
+                <a href="account.html#login">Log in</a>
+                <a href="account.html#signup">Sign up</a>
+            </div>
+
+        </div>
+
+        <p class="note" style="color:#8fa097;margin-top:28px">
+            Listings and prices shown are sample data for demonstration. All prices are in Leones (Le).
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>
